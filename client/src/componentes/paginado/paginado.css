@@ -1,0 +1,28 @@
+.paginado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+    max-width: 900px; /* Ajusta el ancho del contenedor según tus necesidades */
+    margin: 0 auto; 
+    justify-content: center;
+}
+.botonsearch{
+    display: inline-block;
+    padding: 8px 16px;
+    margin-top: 10px;
+    background-color: #fcca03e0;
+    color: rgb(13, 6, 6);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+}
+.ul{
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+li{
+    margin-right: 10px;  
+}

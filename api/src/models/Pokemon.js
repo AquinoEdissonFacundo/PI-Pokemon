@@ -21,7 +21,7 @@ module.exports = (sequelize) => {
     },
     image:{
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
     vida: {
       type: DataTypes.INTEGER,
@@ -49,7 +49,14 @@ module.exports = (sequelize) => {
     },
     type:{
       type: DataTypes.STRING,
-      allowNull: false
+      allowNull: true
     },
+    createdIndDb :{
+      type:DataTypes.BOOLEAN,
+      allowNull:false,
+      defaultValue: true,
+    }
   });
 };
+
+

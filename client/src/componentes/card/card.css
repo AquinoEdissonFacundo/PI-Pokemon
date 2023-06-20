@@ -1,0 +1,25 @@
+.card {
+    background-color: #84838082;
+    border-radius: 30px;
+    padding: 100px;
+
+    max-width: 100%;
+    width: calc(33.33% - 20px); /* Calcula el ancho de cada carta para que haya 3 por línea con un espacio entre ellas */
+    margin-bottom: 20px; /* Espacio entre las cartas verticalmente */
+  }
+  .img{
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; 
+  }
+  .namePokemon{
+  font-size: 30px;
+  color: azure;
+}
+.typePokemon{
+font-size: 20px;
+color: azure;
+}
+.card:hover{
+  box-shadow: 10px 10px 10px 1px;
+}

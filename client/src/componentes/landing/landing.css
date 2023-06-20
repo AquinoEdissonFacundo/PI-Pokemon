@@ -2,6 +2,7 @@ html, body {
     margin: 0;
     padding: 0;
     overflow: hidden;
+  
   }
 
   
@@ -39,6 +40,5 @@ html, body {
     text-decoration: none;
     color: rgb(9, 9, 14);
     font-family: 'Press Start 2P', cursive;
-
-
+   
 }

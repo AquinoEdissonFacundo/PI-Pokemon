@@ -18,9 +18,9 @@ const router = Router();
 
 router.get("/pokemons" ,Pokemons);
 router.get("/pokemons/types",PokemonType );
-router.get("/pokemons/:nombre",PokemonName );
+router.get("/pokemons/name", PokemonName);
 router.get("/pokemons/id/:id",PokemonId);
-router.post("/pokemons/createPokemons",createPokemon )
+router.post("/pokemons/createPokemon",createPokemon )
 
 
 module.exports = router;
